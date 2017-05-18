@@ -5,7 +5,11 @@
   "author": "{{ author }}",
   "private": true,
   "dependencies": {
-    "nuxt": "latest"
+    "axios": "^0.16.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "nuxt": "latest",
+    "vue-ls": "&2.2.13"
   },
   "scripts": {
     "dev": "nuxt",
@@ -22,6 +26,10 @@
     "eslint-loader": "^1.6.1",
     "eslint-plugin-html": "^2.0.0",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^2.0.1"
+    "eslint-plugin-standard": "^2.0.1",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "scss-loader": "^0.0.1",
+    "tachyons": "^4.7.1"
   }
 }
