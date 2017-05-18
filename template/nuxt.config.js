@@ -1,7 +1,4 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'starter',
     meta: [
@@ -13,17 +10,17 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
+  css: [
+    {src: '~assets/scss/index.scss', lang: 'scss'}
+  ],
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** Run ESLINT on save
-    */
+    vendor: [
+      'axios',
+      'lodash',
+      'moment',
+      'vue-ls'
+    ],
     extend (config, ctx) {
       if (ctx.isClient) {
         config.module.rules.push({
