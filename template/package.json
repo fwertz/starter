@@ -6,10 +6,11 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
+    "bulma": "0.5.3",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "nuxt": "latest",
-    "vue-ls": "&2.2.13"
+    "vue-ls": "^2.2.13"
   },
   "scripts": {
     "dev": "nuxt",
